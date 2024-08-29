@@ -1,6 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/lake3"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="-40dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lakes                                    $250"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National Park"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/seablue"
+            android:drawableStart="@drawable/location_pin"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:drawableStart="@drawable/filled_star"
+               android:layout_marginLeft="25dp"
+               android:layout_marginTop="10dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/filled_star"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/filled_star"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/filled_star"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    (4)"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover the serene beauty of our lakeside getaway, where tranquil waters meet breathtaking landscapes. Immerse yourself in a range of activities from serene kayaking at sunrise to peaceful lakeside picnics under starlit skies. Our all-inclusive packages offer luxurious accommodations, guided nature tours, and gourmet dining, ensuring every moment is filled with relaxation and adventure. Escape the hustle and bustle and rejuvenate your spirit amidst nature’s perfect retreat. Book your lake experience today."
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="book your experience"
+            android:background="@drawable/button_stroke"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

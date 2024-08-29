@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/taxi_color"
+    >
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/taxi"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop=""
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi There!"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Get Started!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/stroke"
+        android:layout_marginHorizontal="50dp"
+        android:paddingVertical="8dp"
+        android:drawableStart="@drawable/email_person"
+        android:paddingLeft="20dp"
+        android:drawablePadding="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="18dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/stroke"
+        android:layout_marginHorizontal="50dp"
+        android:paddingVertical="8dp"
+        android:drawableStart="@drawable/pass_lock"
+        android:paddingLeft="20dp"
+        android:drawablePadding="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create An Account"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/stroke"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/darkorange"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="_________________________ or _________________________"
+            android:layout_weight=""
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="30dp"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/stroke"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/lighttaxi"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

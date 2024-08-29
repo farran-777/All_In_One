@@ -1,10 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
     tools:context=".signup">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Facebook"
+        android:textColor="@color/skyblue"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="100dp"
+        android:background="@drawable/border"
+        android:paddingHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It's quick and easy."
+        android:textSize="20dp"
+        android:textColor="@color/grey"
+        android:layout_marginLeft="10dp"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        .
+    <EditText
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="    First Name   "
+        android:background="@drawable/stroke"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:paddingHorizontal="24dp"
+        android:backgroundTint="@color/lgrey"
+        />
+
+
+    <EditText
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/stroke"
+        android:hint="    Last Name         "
+        android:textSize="23dp"
+        android:gravity="center"
+        android:paddingHorizontal="24dp"
+        android:backgroundTint="@color/lgrey"
+
+        />
+    </LinearLayout>
+    <EditText
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stroke"
+        android:hint="Mobile Number Or Email"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:backgroundTint="@color/lgrey"
+        />
+    <EditText
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stroke"
+        android:hint="Enter New Password"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:backgroundTint="@color/lgrey"
+        />
+    <TextView
+        android:background="dra"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <EditText
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Month"
+        android:background="@drawable/stroke"
+        android:textSize="23dp"
+        android:paddingHorizontal="40dp"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:background="@drawable/stroke"
+        android:textSize="23dp"
+        android:paddingHorizontal="40dp"
+        android:layout_marginHorizontal="1dp"
+        />
+        <EditText
+
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:background="@drawable/stroke"
+            android:textSize="23dp"
+            android:paddingHorizontal="40dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_marginLeft="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Male"
+        android:background="@drawable/stroke"
+        android:textSize="23dp"
+        android:paddingHorizontal="40dp"
+        android:layout_marginHorizontal="40dp"
+        />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Female"
+            android:background="@drawable/stroke"
+            android:textSize="23dp"
+            android:paddingHorizontal="40dp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginVertical="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@color/green"
+        android:paddingHorizontal="20dp"
+        />
+    </LinearLayout>
+
+
+
+
