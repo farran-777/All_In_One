@@ -32,7 +32,8 @@
                 android:text="LOGIN"
                 android:textColor="@color/black"
                 android:textSize="28dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <TextView
                 android:layout_width="match_parent"
