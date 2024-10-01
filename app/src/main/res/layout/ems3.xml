@@ -35,176 +35,171 @@
 
 
     <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/desingnation"
-    >
-
-
-    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Event Management Society"
-        android:textSize="30dp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginTop="60dp"
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="70dp"
-        >
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="10dp"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
-            app:cardBackgroundColor="#F3F4F6"
-            android:id="@+id/d1"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/image"
-                    android:layout_marginLeft="75dp"
-                    android:layout_marginTop="55dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="GALLERY"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="60dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"
-                    />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight=
-            android:layout_width="190dp"
-            android:layout_height="190dp"
-            android:id="@+id/d2"
-            >
-            <LinearLayout
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/calendar"
-                    android:layout_marginLeft="75dp"
-                    android:layout_marginTop="50dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="UPCOMING EVENTS"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"
-                    />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </androidx.cardview.widget.CardView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="10dp"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
-            android:id="@+id/d3"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/two_persons"
-                    android:layout_marginLeft="75dp"
-                    android:layout_marginTop="50dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Desingnations"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="30dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="21dp"
-                    />
-            </LinearLayout>
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight=
-            android:layout_width="190dp"
-            android:layout_height="190dp"
-            android:id="@+id/d4"
-            >
-            <LinearLayout
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/poll_24"
-                    android:layout_marginLeft="75dp"
-                    android:layout_marginTop="50dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="POLL"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="75dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"
-                    />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/desingnation"
         >
 
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Management Society"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="60dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                app:cardBackgroundColor="@color/white"
+                android:id="@+id/d1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/image"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginTop="55dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GALLERY"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight=
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:id="@+id/d2"
+                >
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/calendar"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginTop="50dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="UPCOMING EVENTS"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:id="@+id/d3"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/two_persons"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginTop="50dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Desingnations"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="21dp"
+                        />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight=
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:id="@+id/d4"
+                >
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/poll_24"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginTop="50dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="POLL"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="75dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
 
 
 
@@ -216,4 +211,4 @@
 
 
 
-</LinearLayout>
+        </LinearLayout>

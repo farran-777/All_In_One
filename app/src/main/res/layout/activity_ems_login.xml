@@ -1,110 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/emsgradient"
-    >
+    android:background="@drawable/emsgradient">
+
     <androidx.cardview.widget.CardView
         android:layout_width="330dp"
         android:layout_height="630dp"
         android:layout_gravity="center"
         app:cardCornerRadius="20dp"
         android:layout_marginVertical="50dp"
-        app:cardElevation="100dp"
-        >
+        app:cardElevation="100dp">
 
         <LinearLayout
-            android:layout_width="330dp"
-            android:layout_height="650dp"
-            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/"
+                android:layout_gravity="center"
+                 /> <!-- Add your image resource -->
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="70dp"
-                android:drawablePadding="10dp"
                 android:gravity="center"
                 android:text="LOGIN"
                 android:textColor="@color/black"
-                android:textSize="28dp"
-                android:textStyle="bold"
-                />
+                android:textSize="28sp" <!-- Use sp for text size -->
+            android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
                 android:layout_marginTop="40dp"
                 android:text="Username"
                 android:textColor="@color/black"
-                android:textSize="15dp" />
+                android:textSize="15sp"
+                "/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
                 android:drawableStart="@drawable/email_person"
-                android:drawablePadding="5dp"
+                android:drawablePadding="15dp"
                 android:hint="Type Your Username"
                 android:paddingHorizontal="20dp"
-                android:paddingBottom="20dp" />
+                android:layout_marginBottom="20dp"
+                android:id="@+id/emailEditText"
+                android:height="50dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:text="Password"
                 android:textColor="@color/black"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
                 android:drawableStart="@drawable/pass_lock"
                 android:drawablePadding="5dp"
                 android:hint="Type Your Password"
                 android:paddingHorizontal="20dp"
-                android:paddingBottom="20dp" />
+                android:layout_marginBottom="20dp"
+                android:id="@+id/passwordEditText"
+                android:height="50dp"/>/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="45dp"
                 android:gravity="end"
                 android:text="Forgot Password?"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
                 app:cardBackgroundColor="@color/blue"
                 app:cardCornerRadius="100dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:paddingVertical="10dp"
                         android:text="LOGIN"
                         android:textColor="@color/white"
-                        android:textSize="18dp"
-                        android:textStyle="bold" />
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:id="@+id/loginButton"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -114,22 +115,29 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center_horizontal"
-                android:text="Or SignUp Using" />
+                android:text="Or SignUp Using"
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingHorizontal="-15dp">
+                android:gravity="center"
+                android:layout_marginTop="10dp">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="10dp"
-                    android:drawableStart="@drawable/twitter_icon"
-                    android:drawableLeft="@drawable/gmail_icon"
-                    android:drawableEnd="@drawable/facebook_logo"
-                    android:paddingHorizontal="180dp"
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/twitter_icon" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gmail_icon"
+                    android:layout_marginHorizontal="20dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/facebook_logo" />
             </LinearLayout>
 
             <TextView
@@ -137,7 +145,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="Or SIgnUp Using" />
+                android:text="Or SignUp Using" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -145,10 +153,11 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center"
                 android:text="SignUp"
-                android:textStyle="bold"
-
+                android:textStyle="bold" />
 
         </LinearLayout>
 
-
     </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+    t>

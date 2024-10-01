@@ -144,7 +144,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="General Secretary"
-                   android:layout_marginLeft="17dp"
+                    android:layout_marginLeft="17dp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20dp"
@@ -204,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/person_ems_24"
                     android:layout_marginLeft="20dp"
-                                    />
+                    />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -217,7 +217,7 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-    </androidx.cardview.widget.CardView>
+
 
 
 
