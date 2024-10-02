@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/emsgradient"
-    >
+    android:background="@drawable/emsbg">
 
     <TextView
         android:layout_width="match_parent"
@@ -14,7 +13,7 @@
         android:gravity="center"
         android:text="EMS GALLERY"
         android:textColor="#021789"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
@@ -24,44 +23,42 @@
         android:layout_marginTop="5dp"
         android:text="Data Recovery"
         android:textColor="@color/black"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            >
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/datarecovery"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                />
+                android:layout_marginRight="5dp" />
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/datarecovery2"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                />
+                android:layout_marginRight="5dp" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/datarecovery3"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                />
+                android:layout_marginRight="20dp" />
         </LinearLayout>
-
     </HorizontalScrollView>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -69,43 +66,42 @@
         android:layout_marginLeft="20dp"
         android:text="Farewell"
         android:textColor="@color/black"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:textStyle="bold" />
+
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            >
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/farewell3"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                />
+                android:layout_marginRight="5dp" />
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/farewell"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                />
+                android:layout_marginRight="5dp" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/farewell2"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                />
+                android:layout_marginRight="20dp" />
         </LinearLayout>
-
     </HorizontalScrollView>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,41 +109,39 @@
         android:layout_marginLeft="20dp"
         android:text="Crime"
         android:textColor="@color/black"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:textStyle="bold" />
+
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            >
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/crime"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                />
+                android:layout_marginRight="5dp" />
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/crime2"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                />
+                android:layout_marginRight="5dp" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="180dp"
                 android:background="@drawable/crime3"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                />
+                android:layout_marginRight="20dp" />
         </LinearLayout>
-
     </HorizontalScrollView>
 </LinearLayout>
