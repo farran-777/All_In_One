@@ -26,10 +26,10 @@ public class ems3 extends AppCompatActivity {
         drawerLayout = findViewById(R.id.drawer_layout);
         actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close);
 
-        cardGallery = findViewById(R.id.d1);
-        cardUpcomingEvents = findViewById(R.id.d2);
-        cardDesignations = findViewById(R.id.d3);
-        cardPoll = findViewById(R.id.d4);
+        cardGallery = findViewById(R.id.card_gallery);
+        cardUpcomingEvents = findViewById(R.id.card_upcoming_events);
+        cardDesignations = findViewById(R.id.card_designations);
+        cardPoll = findViewById(R.id.card_poll);
 
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
@@ -82,4 +82,5 @@ public class ems3 extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

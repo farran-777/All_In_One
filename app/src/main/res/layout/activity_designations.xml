@@ -3,18 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/emsbg">
+    android:background="@drawable/emsbg"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Designations"
-        android:textSize="30sp"
+        android:layout_marginTop="30dp"
         android:gravity="center"
-        android:textStyle="bold"
+        android:text="Designations"
         android:textColor="@color/black"
-        android:layout_marginTop="30dp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,10 +22,10 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="10dp"
             android:layout_width="190dp"
             android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -36,25 +36,25 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/person_ems_24"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:drawableStart="@drawable/person_ems_24" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="President"
                     android:layout_marginLeft="50dp"
-                    android:textStyle="bold"
+                    android:text="President"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="15dp"
             android:layout_width="190dp"
             android:layout_height="190dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -65,17 +65,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/person_ems_24"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:drawableStart="@drawable/person_ems_24" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Vice President"
                     android:layout_marginLeft="25dp"
-                    android:textStyle="bold"
+                    android:text="Vice President"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -86,10 +86,10 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="10dp"
             android:layout_width="190dp"
             android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -100,25 +100,25 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/person_ems_24"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:drawableStart="@drawable/person_ems_24" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="General Secretary"
                     android:layout_marginLeft="17dp"
-                    android:textStyle="bold"
+                    android:text="General Secretary"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="15dp"
             android:layout_width="190dp"
             android:layout_height="190dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -129,17 +129,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/person_ems_24"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:drawableStart="@drawable/person_ems_24" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="General Secretary"
                     android:layout_marginLeft="17dp"
-                    android:textStyle="bold"
+                    android:text="General Secretary"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -150,10 +150,10 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
             android:layout_width="190dp"
             android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -164,25 +164,25 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/person_ems_24"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:drawableStart="@drawable/person_ems_24" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Joint Secretary"
                     android:layout_marginLeft="30dp"
-                    android:textStyle="bold"
+                    android:text="Joint Secretary"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp"
             android:layout_width="190dp"
             android:layout_height="190dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -193,17 +193,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/person_ems_24"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:drawableStart="@drawable/person_ems_24" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Joint Secretary"
                     android:layout_marginLeft="30dp"
-                    android:textStyle="bold"
+                    android:text="Joint Secretary"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
