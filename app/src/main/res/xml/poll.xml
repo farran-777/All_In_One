@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<poll>
+    <question>Which event do you prefer?</question>
+    <options>
+        <option id="1">E-Gaming</option>
+        <option id="2">Color Day</option>
+        <option id="3">Speech Competition</option>
+    </options>
+</poll>

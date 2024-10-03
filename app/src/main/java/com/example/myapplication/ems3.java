@@ -18,6 +18,7 @@ public class ems3 extends AppCompatActivity {
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private CardView cardGallery, cardUpcomingEvents, cardDesignations, cardPoll;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
